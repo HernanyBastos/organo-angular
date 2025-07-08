@@ -1,4 +1,7 @@
 <section>
+    <button class="favorito-btn" (click)="alternarFavorito()">
+        <span >{{livro.favorito ? '\u2764' : '\u2661'}}</span>
+    </button>
     <div class="livro-capa">
         <img [src]="livro.capa">
     </div>

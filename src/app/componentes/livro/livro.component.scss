@@ -12,9 +12,12 @@ section {
     padding-top: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
-    .livro-capa img {
-        width: 140px;
-        height: 200px;
+    .livro-capa {
+        img {
+            width: 128px;
+            height: 185px;
+            margin-top: 30px;
+        }
     }
 
     .info-livro {
@@ -26,6 +29,25 @@ section {
 
         >* {
             margin: 8px;
+        }
+    }
+
+    .favorito-btn {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 28px;
+        color: #ff5252;
+        padding: 0;
+        outline: none;
+
+        &:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+            transition: transform 0.2s ease, opacity 0.2s ease;
         }
     }
 }

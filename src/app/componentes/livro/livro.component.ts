@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Livro } from '../livro-interface';
 
 @Component({
   selector: 'app-livro',
@@ -8,10 +9,15 @@ import { Component } from '@angular/core';
 })
 export class LivroComponent {
 
-  livro = {
-    titulo: "Harry Poter e a Pedra Filosofal",
-    autoria: "J. K. Rowling",
-    capa: "https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg"
+  alternarFavorito(){
+    this.livro.favorito = !this.livro.favorito;
   }
 
+  livro: Livro = {
+    titulo: "Harry Poter e a Pedra Filosofal",
+    autoria: "J. K. Rowling",
+    favorito: false,
+    genero: "Ficção",
+    capa: "https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg"
+  }
 }
