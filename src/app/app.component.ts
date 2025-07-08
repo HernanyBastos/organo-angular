@@ -1,9 +1,17 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+//Componentes
+import { HeaderComponent } from './componentes/header/header.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,
+    HeaderComponent,
+    FooterComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
