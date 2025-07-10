@@ -60,18 +60,106 @@
     border-bottom: 4px solid #E06B69;
 }
 
-.ficcao-cientifica {
+.ficcao {
     background-color: #FFF0FA;
 }
 
-.generos .ficcao-cientifica {
+.generos .ficcao {
     border-bottom: 4px solid #DB6EBF;
 }
 
-.tecnicos {
-    background-color: #FFF1E4;
+.terror {
+    background-color: #F8D7DA; /* Cor para Terror */
 }
 
-.generos .tecnicos {
-    border-bottom: 4px solid #FF8A29;
+.generos .terror {
+    border-bottom: 4px solid #F5C6CB; /* Cor para Terror */
+}
+
+.suspense {
+    background-color: #D1ECF1; /* Cor para Suspense */
+}
+
+.generos .suspense {
+    border-bottom: 4px solid #B2E0E6; /* Cor para Suspense */
+}
+
+.drama {
+    background-color: #FFF3CD; /* Cor para Drama */
+}
+
+.generos .drama {
+    border-bottom: 4px solid #FFEEBA; /* Cor para Drama */
+}
+
+.filosofico {
+    background-color: #D4EDDA; /* Cor para Filosófico */
+}
+
+.generos .filosofico {
+    border-bottom: 4px solid #C3E6CB; /* Cor para Filosófico */
+}
+
+.poesia {
+    background-color: #E2E3E5; /* Cor para Poesia */
+}
+
+.generos .poesia {
+    border-bottom: 4px solid #C6C8CA; /* Cor para Poesia */
+}
+
+.realismo {
+    background-color: #F0E68C; /* Cor para Realismo Mágico */
+}
+
+.generos .realismo {
+    border-bottom: 4px solid #E2D600; /* Cor para Realismo Mágico */
+}
+
+.contemporaneo {
+    background-color: #D9EAD3; /* Cor para Contemporâneo */
+}
+
+.generos .contemporaneo {
+    border-bottom: 4px solid #B6D7A8; /* Cor para Contemporâneo */
+}
+
+.infanto-juvenil {
+    background-color: #F9CB9C; /* Cor para Infanto Juvenil */
+}
+
+.generos .infanto-juvenil {
+    border-bottom: 4px solid #F6B93B; /* Cor para Infanto Juvenil */
+}
+
+.biografia {
+    background-color: #C9DAF8; /* Cor para Biografia */
+}
+
+.generos .biografia {
+    border-bottom: 4px solid #A4C8E1; /* Cor para Biografia */
+}
+
+.classicos {
+    background-color: #E6E6FA; /* Cor para Clássicos */
+}
+.generos .classicos {
+    border-bottom: 4px solid #B0B0E0; /* Cor para Clássicos */
+}
+.dark {
+    background-color: #2C2C2C; /* Cor para Dark */
+    
+    h3{
+        color: #e9e9e9;
+    }
+}
+.generos .dark {
+    border-bottom: 4px solid #4B4B4B; /* Cor para Dark */
+}
+
+.infantil {
+    background-color: #FFEBB5; /* Cor para Infantil */
+}
+.generos .infantil {
+    border-bottom: 4px solid #FFD700; /* Cor para Infantil */
 }
