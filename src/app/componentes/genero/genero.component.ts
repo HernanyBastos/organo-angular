@@ -1,11 +1,14 @@
 import { Component, input } from '@angular/core';
 import { LivroComponent } from "../livro/livro.component";
-import { livros } from '../../mock-livros';
 import { GeneroLiterario } from '../livro/livro-interface';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-genero',
-  imports: [LivroComponent],
+  imports: [
+    CommonModule,
+    LivroComponent
+  ],
   templateUrl: './genero.component.html',
   styleUrl: './genero.component.scss'
 })
